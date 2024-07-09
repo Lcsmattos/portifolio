@@ -1,5 +1,8 @@
 import { Fade } from "react-awesome-reveal";
 import { useTranslation } from "react-i18next";
+import CVportuges from "../../docs/CV_Lucas_Mattos_2024_portugues.pdf";
+import CVingles from "../../docs/CV_Lucas_Mattos_2024_ingles.pdf";
+
 import {
   Button,
   ButtonContainer,
@@ -18,10 +21,10 @@ export function DownloadCV() {
       </Fade>
       <FadeButton duration={2000} delay={500}>
         <ButtonContainer>
-          <a href="docs/CV-Lucas Mattos-2024-pt.pdf" target="_blank">
+          <a href={CVportuges} target="_blank">
             <Button> {t("portugues")}</Button>
           </a>
-          <a href="docs/CV-Lucas Mattos-2024-eng.pdf" target="_blank">
+          <a href={CVingles} target="_blank">
             <Button> {t("ingles")}</Button>
           </a>
         </ButtonContainer>
