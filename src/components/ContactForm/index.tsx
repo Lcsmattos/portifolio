@@ -23,11 +23,11 @@ export function ContactForm() {
         action="https://formsubmit.co/lcsmattos7@gmail.com"
         onSubmit={() => setDisabled(true)}
       >
-        {/* <Input
+        <Input
           type="hidden"
           name="_next"
           value="https://lcsmattos.github.io/portifolio"
-        /> */}
+        />
         <Fade duration={2000} direction="left">
           <Input type="text" name="nome" placeholder={t("nome")} required />
         </Fade>
