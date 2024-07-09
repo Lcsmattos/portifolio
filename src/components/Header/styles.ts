@@ -53,8 +53,7 @@ export const SwitchLanguage = styled.select`
   text-indent: 1px;
   text-overflow: "";
   text-align: center;
-
-  margin-top: -30px;
+  cursor: pointer;
 `;
 
 export const LogoAndLanguageDiv = styled.div`
@@ -64,7 +63,14 @@ export const LogoAndLanguageDiv = styled.div`
   background: transparent;
 
   p {
-    margin-top: -30px;
     color: white;
   }
+`;
+
+export const LanguageContainer = styled.div`
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: -40px;
 `;

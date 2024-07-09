@@ -29,7 +29,9 @@ export function Beginning() {
             {t("beginning_paragrafo_7")}
           </p>
 
-          <Button>{t("entre_em_contato")}</Button>
+          <Button>
+            <a href="#form">{t("entre_em_contato")}</a>
+          </Button>
         </TextContainer>
       </Fade>
       <Fade duration={2000} direction="up">

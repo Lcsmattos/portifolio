@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 
 import {
   HeaderContainer,
+  LanguageContainer,
   Logo,
   LogoAndLanguageDiv,
   MenuNav,
@@ -32,13 +33,16 @@ export function Header() {
     <HeaderContainer>
       <LogoAndLanguageDiv>
         <Logo src={LogoHeader} />
-        <SwitchLanguage
-          onChange={(e) => selectLanguage(e.target.value as EnumLanguage)}
-          value={language}
-        >
-          <option value={EnumLanguage.pt}>Português</option>
-          <option value={EnumLanguage.en}>English</option>
-        </SwitchLanguage>
+        <LanguageContainer>
+          <p>Idioma: </p>
+          <SwitchLanguage
+            onChange={(e) => selectLanguage(e.target.value as EnumLanguage)}
+            value={language}
+          >
+            <option value={EnumLanguage.pt}>Português</option>
+            <option value={EnumLanguage.en}>English</option>
+          </SwitchLanguage>
+        </LanguageContainer>
       </LogoAndLanguageDiv>
 
       <MenuNav>
