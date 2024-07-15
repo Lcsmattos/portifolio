@@ -1682,7 +1682,15 @@ body {
   p a {
     color: #fff;
   }
-`,Sx=z.div``,Sa=z.button`
+`,Sx=z.div`
+  display: flex;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    margin: 10px 0;
+    gap: 5px;
+  }
+`,Sa=z.button`
   width: 50px;
   height: 50px;
   border-radius: 50%;
