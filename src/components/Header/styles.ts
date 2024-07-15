@@ -13,8 +13,8 @@ export const HeaderContainer = styled.header`
 `;
 
 export const Logo = styled.img`
-  width: 12.5rem;
-  height: 12.5rem;
+  width: 13rem;
+  height: 7.5rem;
 `;
 
 export const MenuNav = styled.div`
@@ -42,9 +42,7 @@ export const MenuNav = styled.div`
   }
 `;
 
-export const SwitchLanguage = styled.select`
-  display: flex;
-  justify-content: center;
+export const SelectLanguage = styled.select`
   color: white;
   background: transparent;
   border: none;
@@ -72,5 +70,5 @@ export const LanguageContainer = styled.div`
   width: 100%;
   align-items: center;
   justify-content: space-around;
-  margin-top: -40px;
+  margin-top: 0.4rem;
 `;

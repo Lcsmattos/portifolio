@@ -1,4 +1,7 @@
+import { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
+
+import LogoHeader from "../../assets/mini_logo_header.png";
 
 import {
   HeaderContainer,
@@ -6,10 +9,8 @@ import {
   Logo,
   LogoAndLanguageDiv,
   MenuNav,
-  SwitchLanguage,
+  SelectLanguage,
 } from "./styles";
-import LogoHeader from "../../assets/mini_logo_header.png";
-import { useEffect, useState } from "react";
 
 enum EnumLanguage {
   "pt" = "pt",
@@ -34,14 +35,14 @@ export function Header() {
       <LogoAndLanguageDiv>
         <Logo src={LogoHeader} />
         <LanguageContainer>
-          <p>Idioma: </p>
-          <SwitchLanguage
+          <p>{t("idioma")}: </p>
+          <SelectLanguage
             onChange={(e) => selectLanguage(e.target.value as EnumLanguage)}
             value={language}
           >
-            <option value={EnumLanguage.pt}>Português</option>
-            <option value={EnumLanguage.en}>English</option>
-          </SwitchLanguage>
+            <option value={EnumLanguage.pt}> Português 🇧🇷</option>
+            <option value={EnumLanguage.en}> English 🇺🇸 </option>
+          </SelectLanguage>
         </LanguageContainer>
       </LogoAndLanguageDiv>
 

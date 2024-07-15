@@ -7,6 +7,7 @@ export const resources = {
       sobre: "Sobre",
       curriculo: "Currículo",
       fale_comigo: "Fale Comigo",
+      idioma: "Idioma",
 
       //Beginning
       titulo_beginning: "TRANSFORMANDO IDEIAS EM REALIDADE",
@@ -62,6 +63,7 @@ export const resources = {
       sobre: "About",
       curriculo: "Curriculum",
       fale_comigo: "Contact Me",
+      idioma: "Language",
 
       //Beginning
       titulo_beginning: "TRANSFORMING IDEAS INTO REALITY",

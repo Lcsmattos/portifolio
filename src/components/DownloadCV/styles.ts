@@ -53,6 +53,7 @@ export const Button = styled.button`
   cursor: pointer;
   transition: 0.2s;
   flex: 1;
+  color: black;
 
   &:hover {
     box-shadow: 0px 0px 8px #00ff08;

@@ -42,9 +42,14 @@ export const Button = styled.button`
   cursor: pointer;
   margin: 0 5px;
   transition: 0.2s;
+
+  i {
+    color: black;
+  }
 `;
 
 export const LogoImage = styled.img`
-  width: 150px;
-  height: 150px;
+  width: 13rem;
+  height: 7.5rem;
+  margin: 1rem;
 `;
