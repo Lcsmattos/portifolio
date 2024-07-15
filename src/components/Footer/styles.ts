@@ -30,7 +30,15 @@ export const Contacts = styled.div`
   }
 `;
 
-export const ButtonContainer = styled.div``;
+export const ButtonContainer = styled.div`
+  display: flex;
+
+  @media screen and (max-width: 500px) {
+    flex-direction: column;
+    margin: 10px 0;
+    gap: 5px;
+  }
+`;
 
 export const Button = styled.button`
   width: 50px;
