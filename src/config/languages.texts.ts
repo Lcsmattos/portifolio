@@ -11,14 +11,14 @@ export const resources = {
 
       //Beginning
       titulo_beginning: "TRANSFORMANDO IDEIAS EM REALIDADE",
-      paragrafo_1:
+      beginning_paragrafo_1:
         '"No mundo do desenvolvimento de software, cada linha de código é um passo em direção à inovação e à solução de problemas complexos."',
-      paragrafo_2: "Ofereço serviços de desenvolvimento",
-      paragrafo_3: "ou",
-      paragrafo_4: "com experiencia em",
-      paragrafo_5: "Trabalhando tanto em modelo",
-      paragrafo_6: "quanto",
-      paragrafo_7:
+      beginning_paragrafo_2: "Ofereço serviços de desenvolvimento",
+      beginning_paragrafo_3: "ou",
+      beginning_paragrafo_4: "com experiencia em",
+      beginning_paragrafo_5: "Trabalhando tanto em modelo",
+      beginning_paragrafo_6: "quanto",
+      beginning_paragrafo_7:
         "transformo suas ideias em soluções digitais robustas e eficientes. Experiência em projetos de bancos digitais e e-commerces, combinando planejamento e execução para entregar resultados excepcionais.",
       entre_em_contato: "Entre em contato",
 
